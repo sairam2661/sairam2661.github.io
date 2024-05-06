@@ -1,5 +1,5 @@
 ## About Me
-As an upcoming Master of Science in Computer Science student at UCSD, I am passionate about exploring the realms of machine learning, computer vision, temporal analysis, and data-centric artificial intelligence. My research interests lie in developing novel algorithms and models in these areas.
+As an incoming Master of Science in Computer Science student at UCSD, I am passionate about exploring the realms of machine learnig, computer vision, temporal analysis, and explainable AI. My research interests lie in developing novel algorithms and models in these areas.
 
 ## Technical Skills
 - Python, Scala, Java, SQL, C++, HTML/CSS, JavaScript
