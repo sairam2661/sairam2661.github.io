@@ -1,5 +1,5 @@
 ## About Me
-As an incoming Master of Science in Computer Science student at UCSD, I am passionate about exploring the realms of machine learnig, computer vision, temporal analysis, and explainable AI. My research interests lie in developing novel algorithms and models in these areas.
+As a Master of Science in Computer Science student at UCSD, I am passionate about exploring the realms of machine learning, computer vision, temporal analysis, and explainable AI. My research interests lie in developing novel algorithms and models in these areas.
 
 ## Technical Skills
 - Python, Scala, Java, SQL, C++, HTML/CSS, JavaScript
@@ -9,11 +9,12 @@ As an incoming Master of Science in Computer Science student at UCSD, I am passi
 - MySQL, PostgreSQL, MongoDB
 
 ## Education
+- M.S. in Computer Science | University of California, San Diego (GPA: 4.0/4.0)
 - B.E. in Computer Science and Engineering | PSG College of Technology, India (CGPA: 9.70/10.0)
 
 ## Work Experience
 
-**Technology Analyst** @ Morgan Stanley, Bengaluru, India (Aug. 2023 - Present)
+**Technology Analyst** @ Morgan Stanley, Bengaluru, India (Jul. 2023 - Aug. 2024)
 - Developed Kafka-powered system for bi-temporal data changes detection
 - Orchestrated Apache Airflow for streamlined data pipelines
 
