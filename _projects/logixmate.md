@@ -4,7 +4,7 @@ title: LogixMate
 description: Multi-Modal Cost Optimization for Global Logistics Chains
 img: assets/img/global_logistic_chain_1.png
 importance: 5
-category: work
+category: fun
 related_publications: false
 ---
 

@@ -2,9 +2,9 @@
 layout: page
 title: SemGuS LENS
 description: Leveraging Enumerative and LLM-Guided Synthesis for Semantic Program Generation
-img: assets/img/lens_framework.jpg
+img: assets/img/lens_framework.png
 importance: 1
-category: research
+category: work
 related_publications: true
 ---
 
@@ -12,7 +12,7 @@ SemGuS LENS is a novel approach to program synthesis that combines the power of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lens_framework.jpg" title="SemGuS LENS Framework" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lens_framework.png" title="SemGuS LENS Framework" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -29,10 +29,10 @@ Our framework introduces three major enhancements to the traditional SemGuS appr
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/llm_input.jpg" title="LLM Input Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/llm_input.png" title="LLM Input Example" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/llm_output.jpg" title="LLM Output Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/llm_output.png" title="LLM Output Example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -45,7 +45,7 @@ Our experimental evaluation across SemGuS benchmarks demonstrates significant im
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lens_results.jpg" title="Experimental Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lens_results.png" title="Experimental Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

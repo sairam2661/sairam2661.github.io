@@ -4,7 +4,7 @@ title: Federated Adversarial Training
 description: Secure Federated Learning Framework for Medical Image Analysis
 img: assets/img/federated_framework_1.png
 importance: 4
-category: research
+category: work
 related_publications: true
 ---
 
@@ -30,10 +30,10 @@ Our framework addresses several critical challenges in medical AI:
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/federated_training_client_1_result.jpg" title="Client 1 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/federated_training_client_1_result.png" title="Client 1 Results" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/federated_training_client_2_result.jpg" title="Client 2 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/federated_training_client_2_result.png" title="Client 2 Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

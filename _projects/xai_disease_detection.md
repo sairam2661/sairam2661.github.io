@@ -2,9 +2,9 @@
 layout: page
 title: Explainable AI Framework
 description: XAI-Based Disease Detection in Paddy Crops using Auto-ML and LIME
-img: assets/img/xai_framework.jpg
+img: assets/img/xai_framework.png
 importance: 2
-category: research
+category: work
 related_publications: true
 ---
 
@@ -12,7 +12,7 @@ This project develops an explainable AI framework for detecting diseases in padd
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/xai_framework.jpg" title="XAI Framework Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/xai_framework.png" title="XAI Framework Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,13 +30,13 @@ Our framework utilizes several cutting-edge techniques:
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sample_xai_input_1.jpg" title="Input Image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sample_xai_input_1.png" title="Input Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/heatmap_lime_intermediate_1.jpg" title="LIME Heatmap 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/heatmap_lime_intermediate_1.png" title="LIME Heatmap 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sample_xai_output_1.jpg" title="Final Explanation 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sample_xai_output_1.png" title="Final Explanation 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

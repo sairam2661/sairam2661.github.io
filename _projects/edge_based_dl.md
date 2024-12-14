@@ -2,7 +2,7 @@
 layout: page
 title: Edge-Based Deep Learning
 description: Real-Time Road Damage Detection using Edge Computing
-img: assets/img/edge_framework.jpg
+img: assets/img/edge_framework.png
 importance: 3
 category: work
 related_publications: true
@@ -12,7 +12,7 @@ This project implements an efficient edge computing framework for real-time road
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/edge_framework.jpg" title="Edge Computing Framework" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/edge_framework.png" title="Edge Computing Framework" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,10 +23,10 @@ This project implements an efficient edge computing framework for real-time road
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sample_edge_output_1.jpg" title="Detection Result 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sample_edge_output_1.png" title="Detection Result 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sample_edge_output_2.jpg" title="Detection Result 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sample_edge_output_2.png" title="Detection Result 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
