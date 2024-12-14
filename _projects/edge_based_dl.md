@@ -5,13 +5,13 @@ description: Real-Time Road Damage Detection using Edge Computing
 img: assets/img/edge_framework.png
 importance: 3
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project implements an efficient edge computing framework for real-time road damage detection, optimizing deep neural networks for deployment on resource-constrained devices like Raspberry Pi.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/edge_framework.png" title="Edge Computing Framework" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -35,11 +35,9 @@ This project implements an efficient edge computing framework for real-time road
 
 ## Live Demo
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <video class="img-fluid rounded z-depth-1" autoplay muted loop playsinline>
-            <source src="assets/video/sample_edge_demo_1.mp4" type="video/mp4">
-        </video>
+        {% include video.liquid path="assets/video/edge_sample_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">

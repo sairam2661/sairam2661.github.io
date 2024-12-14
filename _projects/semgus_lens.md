@@ -5,7 +5,7 @@ description: Leveraging Enumerative and LLM-Guided Synthesis for Semantic Progra
 img: assets/img/lens_framework.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 SemGuS LENS is a novel approach to program synthesis that combines the power of Large Language Models (LLMs) with traditional enumerative synthesis techniques. This project enhances the Semantics-Guided Synthesis (SemGuS) framework through an iterative, LLM-guided probabilistic enumeration approach.
@@ -29,10 +29,10 @@ Our framework introduces three major enhancements to the traditional SemGuS appr
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/llm_input.png" title="LLM Input Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lens_input.png" title="LLM Input Example" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/llm_output.png" title="LLM Output Example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lens_output.png" title="LLM Output Example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -43,8 +43,8 @@ Our framework introduces three major enhancements to the traditional SemGuS appr
 
 Our experimental evaluation across SemGuS benchmarks demonstrates significant improvements in synthesis success rates compared to traditional approaches.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lens_results.png" title="Experimental Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

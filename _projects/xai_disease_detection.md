@@ -5,13 +5,13 @@ description: XAI-Based Disease Detection in Paddy Crops using Auto-ML and LIME
 img: assets/img/xai_framework.png
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project develops an explainable AI framework for detecting diseases in paddy crops, combining the power of Auto-ML optimization with LIME-based interpretability. Our approach achieved significant improvements in both detection accuracy and model transparency.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/xai_framework.png" title="XAI Framework Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

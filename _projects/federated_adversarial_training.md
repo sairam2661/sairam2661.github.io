@@ -2,17 +2,17 @@
 layout: page
 title: Federated Adversarial Training
 description: Secure Federated Learning Framework for Medical Image Analysis
-img: assets/img/federated_framework_1.png
+img: assets/img/federated_framework.png
 importance: 4
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project addresses the critical challenge of securing federated learning systems in medical imaging analysis, specifically focusing on chest X-ray interpretation using the CheXpert dataset. We developed a robust framework that maintains model performance while protecting against both white-box and black-box adversarial attacks.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/federated_framework_1.png" title="Federated Learning Framework" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/federated_framework.png" title="Federated Learning Framework" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
