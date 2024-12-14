@@ -22,6 +22,7 @@ This project develops an explainable AI framework for detecting diseases in padd
 ## Technical Approach
 
 Our framework utilizes several cutting-edge techniques:
+
 1. **Auto-ML Optimization**: Using Optuna and Ray Tune for distributed hyperparameter optimization
 2. **Transfer Learning**: Leveraging EfficientNet and Vision Transformers
 3. **Interpretability**: LIME-based explanation generation for model decisions
@@ -43,8 +44,8 @@ Our framework utilizes several cutting-edge techniques:
     Case study 1: Original paddy crop image (left), intermediate LIME heatmap visualization (middle), and final explainable output highlighting disease-affected regions (right).
 </div>
 
-
 ## Key Achievements
+
 - 94% detection accuracy across multiple disease categories
 - 40% reduction in model training time through Auto-ML optimization
 - 6% improvement over traditional CNN approaches

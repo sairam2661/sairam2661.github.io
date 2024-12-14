@@ -2,7 +2,7 @@
 layout: page
 title: LogixMate
 description: Multi-Modal Cost Optimization for Global Logistics Chains
-img: assets/img/global_logistic_chain_1.png
+img: assets/img/logixmate_thumbnail.png
 importance: 5
 category: fun
 related_publications: false
@@ -31,11 +31,13 @@ LogixMate is an intelligent logistics optimization platform developed for the Mi
 ## Key Features
 
 ### 1. Logistics Chain Creation
+
 - Global route optimization considering multiple transportation modes
 - Dynamic cost factor integration
 - Real-time route adjustment capabilities
 
 ### 2. Intelligent Shipments Tracker
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mea_application_demo_1.png" title="Application Interface Set 1" class="img-fluid rounded z-depth-1" %}
@@ -55,6 +57,7 @@ LogixMate is an intelligent logistics optimization platform developed for the Mi
 </div>
 
 ### 3. Cost Minimization Engine
+
 - Linear Programming-based optimization
 - Multiple solution paths generation
 - Real-time cost factor updates
@@ -65,16 +68,19 @@ LogixMate is an intelligent logistics optimization platform developed for the Mi
 The system addresses four critical challenges in modern logistics:
 
 1. **Complex Cost Factors**
+
    - Multi-variable optimization
    - Dynamic pricing integration
    - Real-time cost adjustments
 
 2. **Manual Processing Elimination**
+
    - Automated information processing
    - Reduced human intervention
    - Streamlined documentation
 
 3. **Big Data Utilization**
+
    - Predictive analytics
    - User behavior analysis
    - Route optimization suggestions
@@ -85,6 +91,7 @@ The system addresses four critical challenges in modern logistics:
    - Integration with forward logistics
 
 ## Impact
+
 - Developed for the Ministry of External Affairs (MEA)
 - Successful presentation at Smart India Hackathon 2022
 - Potential for significant cost reduction in government logistics

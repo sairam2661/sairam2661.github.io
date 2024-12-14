@@ -2,7 +2,7 @@
 layout: page
 title: The Cancel Culture 🛵
 description: Predicting Rider Cancellations in Food Delivery (Runner-up @ Cascade Cup)
-img: assets/img/delivered_cancelled_daily.png
+img: assets/img/rider_thumbnail.png
 importance: 2
 category: fun
 related_publications: false
@@ -17,6 +17,7 @@ Ever wondered why your food delivery gets cancelled? We did too! Here's how we d
 What makes a delivery rider cancel an order? Is it the distance? The time? Or maybe they're just having a bad Saturday? We analyzed thousands of delivery records to find out!
 
 ### The Tale of Two Orders
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/delivered_cancelled_daily.png" title="Daily Order Patterns" class="img-fluid rounded z-depth-1" %}
@@ -27,6 +28,7 @@ What makes a delivery rider cancel an order? Is it the distance? The time? Or ma
 </div>
 
 ### The Day in the Life
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hourly_sessions.png" title="Hourly Patterns" class="img-fluid rounded z-depth-1" %}
@@ -39,6 +41,7 @@ What makes a delivery rider cancel an order? Is it the distance? The time? Or ma
 ## The Plot Thickens 📊
 
 ### The Experience Factor
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lifetime_orders.png" title="Lifetime Orders Impact" class="img-fluid rounded z-depth-1" %}
@@ -49,6 +52,7 @@ What makes a delivery rider cancel an order? Is it the distance? The time? Or ma
 </div>
 
 ### The Distance Dilemma
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/distance_analysis.png" title="Distance Analysis" class="img-fluid rounded z-depth-1" %}
@@ -61,6 +65,7 @@ What makes a delivery rider cancel an order? Is it the distance? The time? Or ma
 ## What We Discovered 🧪
 
 Some fascinating (and sometimes obvious) insights:
+
 - Saturdays are the cancellation champions (maybe riders have weekend plans too!)
 - Most cancellations happen during lunch hours (hangry riders?)
 - Experienced riders are more reliable (practice makes perfect!)
@@ -70,6 +75,7 @@ Some fascinating (and sometimes obvious) insights:
 ## Technical Bits 🤓
 
 For the data nerds out there:
+
 - Performed time-series analysis on order patterns
 - Used highlight tables for session time analysis
 - Created multi-dimensional visualizations for pattern recognition
@@ -79,11 +85,12 @@ For the data nerds out there:
 ## Impact 🎯
 
 Our analysis helped Shadowfax:
+
 - Better predict potential cancellations
 - Optimize rider assignments based on experience
 - Understand peak cancellation periods
 - Improve overall delivery success rates
 
-Who knew food delivery data could tell such interesting stories? This project won us the runner-up position at Cascade Cup, proving that sometimes the most interesting insights come from everyday data! 
+Who knew food delivery data could tell such interesting stories? This project won us the runner-up position at Cascade Cup, proving that sometimes the most interesting insights come from everyday data!
 
 Remember: Behind every cancelled order is a story... and probably a hungry customer! 🍕

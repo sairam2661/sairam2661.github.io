@@ -12,11 +12,11 @@ categories: psychology
 When you performed poorly in an offline test a few months ago, did you blame yourself or the difficulty of the paper? When facing challenges in daily life, do you feel the outcome is entirely in your hands, or is it largely influenced by external forces such as teammates, fate, luck, and so on? In essence, the question is: who do you believe has authority over your life—**you** or **someone else**?
 
 > "Whether you think you can, or you think you can’t—you’re right."  
-> — *Henry Ford*
+> — _Henry Ford_
 
 ### Introducing the Locus of Control (LOC)
 
-This system of belief is known as the **Locus of Control (LOC)**. It reflects the extent to which individuals believe they control the events shaping their lives, represented by a spectrum that ranges from *external* to *internal*:
+This system of belief is known as the **Locus of Control (LOC)**. It reflects the extent to which individuals believe they control the events shaping their lives, represented by a spectrum that ranges from _external_ to _internal_:
 
 - **Internal LOC**: Believing that your actions guide your behavior and outcomes.
 - **External LOC**: Believing that your behavior is guided by external factors such as coworkers, fate, or luck.
@@ -36,7 +36,7 @@ My first step was to **accept myself as I was**—acknowledging that I wasn’t 
 For those interested in making a similar shift, here’s what I found helpful:
 
 - **Do your best** in any situation and connect your good actions to yourself.
-- View everything else, including mistakes, as instances where *"sometimes things just go wrong."*
+- View everything else, including mistakes, as instances where _"sometimes things just go wrong."_
 
 It’s essential to remember that chaos is the universe’s fundamental state. Like us, it can bring good or evil into the world, and not everything is within our control.
 

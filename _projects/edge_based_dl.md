@@ -47,11 +47,13 @@ This project implements an efficient edge computing framework for real-time road
 ## Technical Implementation
 
 The framework focuses on three key aspects:
+
 1. **Model Optimization**: ONNX-based model compression and optimization
 2. **Edge Deployment**: Efficient deployment on Raspberry Pi hardware
 3. **Real-Time Processing**: Optimized inference pipeline for minimal latency
 
 ## Key Achievements
+
 - 15% reduction in inference latency
 - F1 score of 0.64 on the RDD2020 dataset
 - 10-second improvement in critical response time

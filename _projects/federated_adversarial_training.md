@@ -22,6 +22,7 @@ This project addresses the critical challenge of securing federated learning sys
 ## Technical Approach
 
 Our framework addresses several critical challenges in medical AI:
+
 1. **Data Privacy**: Maintaining patient data confidentiality through federated learning
 2. **Model Security**: Implementing adversarial training to protect against model poisoning
 3. **Performance Optimization**: Balancing security measures with model accuracy
@@ -43,11 +44,13 @@ Our framework addresses several critical challenges in medical AI:
 ## Key Innovations
 
 1. **Adversarial Training Integration**
+
    - Implementation of both white-box and black-box attack simulations
    - Dynamic adjustment of adversarial training parameters
    - Robust defense mechanisms against model poisoning attempts
 
 2. **Privacy-Preserving Features**
+
    - Secure aggregation of model updates
    - Local differential privacy implementation
    - Minimal data exposure during training

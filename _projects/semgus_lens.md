@@ -55,6 +55,7 @@ Our experimental evaluation across SemGuS benchmarks demonstrates significant im
 ## Technical Details
 
 The system implements an iterative refinement loop where:
+
 1. Failed synthesis attempts inform subsequent LLM queries
 2. PCFG probabilities are progressively improved
 3. Beam search optimizes the exploration of the solution space
