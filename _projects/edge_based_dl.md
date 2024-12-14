@@ -35,7 +35,7 @@ This project implements an efficient edge computing framework for real-time road
 
 ## Live Demo
 
-<div class="row mt-3">
+<div class="row mt-3 justify-content-cente">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/edge_sample_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>

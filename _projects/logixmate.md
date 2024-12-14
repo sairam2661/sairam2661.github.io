@@ -11,7 +11,7 @@ related_publications: false
 LogixMate is an intelligent logistics optimization platform developed for the Ministry of External Affairs (MEA) as part of Smart India Hackathon 2022. The system transforms complex supply chain challenges into a multi-modal cost-minimization problem, addressing key issues in global logistics management.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/global_logistic_chain_1.png" title="Global Logistics Chain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -20,7 +20,7 @@ LogixMate is an intelligent logistics optimization platform developed for the Mi
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/domestic_logistic_chain_1.png" title="Domestic Logistics Chain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
