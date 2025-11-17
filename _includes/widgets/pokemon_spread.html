@@ -1,0 +1,68 @@
+<div>
+  <div id="{{ include.id | slugify }}" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      {% for pokemon in include.spreads %}
+      <li data-target="#{{ include.id | slugify }}" data-slide-to="{{ forloop.index0 }}" {% if forloop.index == 1 %}class="active"{% endif %}></li>
+      {% endfor %}
+    </ol>
+    
+    <div class="carousel-inner" style="min-height: {{ include.height }};">
+      {% for pokemon in include.spreads %}
+      <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+        <div class="container-fluid p-4">
+          <div class="row align-items-center">
+            <!-- Left: Pokemon Image -->
+            <div class="col-md-4 text-center">
+              <img src="{{ pokemon.image | relative_url }}" alt="{{ pokemon.name }}" class="img-fluid" style="max-width: 250px;" />
+              <h4 class="mt-3">{{ pokemon.name }}</h4>
+            </div>
+            
+            <!-- Right: Spread with Copy Button -->
+            <div class="col-md-8">
+              <div class="position-relative">
+                <button class="btn btn-sm btn-outline-secondary position-absolute" 
+                        style="top: 10px; right: 10px; z-index: 10;"
+                        onclick="copyToClipboard('spread-{{ forloop.index }}', this)"
+                        title="Copy to clipboard">
+                  <i class="fas fa-copy"></i>
+                </button>
+                <pre id="spread-{{ forloop.index }}" class="p-3 bg-light rounded" style="font-size: 0.9rem;"><code>{{ pokemon.spread }}</code></pre>
+              </div>
+              {% if pokemon.notes %}
+              <p class="text-muted mt-2 mb-0"><small>{{ pokemon.notes }}</small></p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+    <div class="carousel-control-prev" type="button" data-target="#{{ include.id | slugify }}" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </div>
+    <div class="carousel-control-next" type="button" data-target="#{{ include.id | slugify }}" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </div>
+  </div>
+</div>
+
+<script>
+function copyToClipboard(elementId, button) {
+  const text = document.getElementById(elementId).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    // Change icon to checkmark
+    const icon = button.querySelector('i');
+    icon.classList.remove('fa-copy');
+    icon.classList.add('fa-check');
+    
+    // Reset after 2 seconds
+    setTimeout(() => {
+      icon.classList.remove('fa-check');
+      icon.classList.add('fa-copy');
+    }, 2000);
+  });
+}
+</script>
