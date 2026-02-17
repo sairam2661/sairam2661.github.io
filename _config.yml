@@ -35,5 +35,17 @@ plugins:
 # timezone: Asia/Shanghai
 
 collections:
-  - publications
-  - news
+  publications:
+    output: false
+  news:
+    output: false
+  blogs:
+    output: true
+    permalink: /blogs/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: "blog"

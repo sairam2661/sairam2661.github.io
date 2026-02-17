@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="my-3 bg-white shadow-sm rounded-xl">
+  <div class="p-4 p-md-5">
+    <!-- Back link -->
+    <a
+      href="{{ '/blogs' | relative_url }}"
+      class="small text-muted blog-back-link"
+    >
+      <i class="fas fa-arrow-left"></i> Back to blog
+    </a>
+
+    <!-- Post header -->
+    <h3 class="font-weight-normal mt-3 mb-2">{{ page.title }}</h3>
+
+    <div class="small text-muted mb-3">
+      <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%B %-d, %Y" }}
+      {% if page.tags.size > 0 %} &nbsp;&middot;&nbsp; {% for tag in page.tags
+      %}
+      <span class="blog-tag">{{ tag }}</span>
+      {% endfor %} {% endif %}
+    </div>
+
+    {% if page.description %}
+    <p class="text-muted" style="font-size: 0.95rem">{{ page.description }}</p>
+    <hr />
+    {% endif %}
+
+    <!-- Post content -->
+    <div class="blog-content">{{ content }}</div>
+
+    <hr class="mt-5" />
+
+    <!-- Post navigation -->
+    {% assign sorted_blogs = site.blogs | sort: 'date' %} {% assign blog_index =
+    nil %} {% for blog in sorted_blogs %} {% if blog.url == page.url %} {%
+    assign blog_index = forloop.index0 %} {% endif %} {% endfor %} {% if
+    blog_index %} {% assign prev_index = blog_index | minus: 1 %} {% assign
+    next_index = blog_index | plus: 1 %}
+    <div class="d-flex justify-content-between small">
+      {% if prev_index >= 0 %}
+      <a
+        href="{{ sorted_blogs[prev_index].url | relative_url }}"
+        class="text-muted"
+      >
+        <i class="fas fa-chevron-left"></i> {{ sorted_blogs[prev_index].title |
+        truncatewords: 6 }}
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %} {% if next_index < sorted_blogs.size %}
+      <a
+        href="{{ sorted_blogs[next_index].url | relative_url }}"
+        class="text-muted"
+      >
+        {{ sorted_blogs[next_index].title | truncatewords: 6 }}
+        <i class="fas fa-chevron-right"></i>
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>

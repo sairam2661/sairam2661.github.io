@@ -1,0 +1,44 @@
+---
+layout: default
+title: Blog - Sairam Vaidya
+navbar_title: Blog
+---
+
+<!-- Blog Listing Page -->
+<div class="my-3 bg-white shadow-sm rounded-xl">
+  <h6 class="p-3 mb-0 border-bottom border-gray">
+    <i class="fas fa-pen-nib"></i> Blog
+    <span class="text-muted ml-2 font-weight-normal small">Some thoughts.</span>
+  </h6>
+
+  <div class="px-3 pb-3">
+    {% assign sorted_blogs = site.blogs | sort: 'date' | reverse %} {% if
+    sorted_blogs.size > 0 %} {% for blog in sorted_blogs %}
+    <div
+      class="blog-list-item py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}"
+    >
+      <div class="d-flex align-items-start">
+        <div class="flex-grow-1">
+          <h5 class="mt-0 mb-1 font-weight-normal">
+            <a href="{{ blog.url | relative_url }}" class="blog-title-link"
+              >{{ blog.title }}</a
+            >
+          </h5>
+          {% if blog.description %}
+          <p class="mb-1 small text-muted">{{ blog.description }}</p>
+          {% endif %}
+          <div class="small text-muted">
+            <i class="fas fa-calendar-alt"></i> {{ blog.date | date: "%B %-d,
+            %Y" }} {% if blog.tags.size > 0 %} &nbsp;&middot;&nbsp; {% for tag
+            in blog.tags %}
+            <span class="blog-tag">{{ tag }}</span>
+            {% endfor %} {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %} {% else %}
+    <p class="text-muted py-3 mb-0">No posts yet — check back soon!</p>
+    {% endif %}
+  </div>
+</div>

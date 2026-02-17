@@ -5,3 +5,5 @@ pages:
     url: /index
   - name: Publications
     url: /publications
+  - name: Blog
+    url: /blogs
