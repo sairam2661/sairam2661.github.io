@@ -34,7 +34,7 @@ layout: default
     <hr class="mt-5" />
 
     <!-- Post navigation -->
-    {% assign sorted_blogs = site.blogs | sort: 'date' %} {% assign blog_index =
+    {% assign sorted_blogs = site.blog | sort: 'date' %} {% assign blog_index =
     nil %} {% for blog in sorted_blogs %} {% if blog.url == page.url %} {%
     assign blog_index = forloop.index0 %} {% endif %} {% endfor %} {% if
     blog_index %} {% assign prev_index = blog_index | minus: 1 %} {% assign
