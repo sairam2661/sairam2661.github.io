@@ -39,13 +39,13 @@ collections:
     output: false
   news:
     output: false
-  blogs:
+  blog:
     output: true
-    permalink: /blogs/:title/
+    permalink: /blog/:title/
 
 defaults:
   - scope:
       path: ""
-      type: "blogs"
+      type: "blog"
     values:
       layout: "blog"
