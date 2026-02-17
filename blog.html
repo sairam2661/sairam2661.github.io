@@ -12,7 +12,7 @@ navbar_title: Blog
   </h6>
 
   <div class="px-3 pb-3">
-    {% assign sorted_blogs = site.blog | sort: 'date' | reverse %} {% if
+    {% assign sorted_blogs = site.blogs | sort: 'date' | reverse %} {% if
     sorted_blogs.size > 0 %} {% for blog in sorted_blogs %}
     <div
       class="blog-list-item py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}"

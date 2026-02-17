@@ -39,7 +39,7 @@ collections:
     output: false
   news:
     output: false
-  blog:
+  blogs:
     output: true
     permalink: /blog/:title/
 
