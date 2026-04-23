@@ -1,0 +1,38 @@
+base_url = "https://sairam2661.github.io"
+title = "Sairam"
+description = "Grad student at UC San Diego working on programming languages, formal methods, and the reliability of language models."
+theme = "apollo"
+compile_sass = true
+build_search_index = true
+generate_feeds = true
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+
+[extra]
+theme = "auto"
+favicon = "/logo.png"
+menu = [
+    { name = "Home", url = "$BASE_URL", weight = 1 },
+    { name = "/projects", url = "$BASE_URL/projects", weight = 2 },
+    { name = "/posts", url = "$BASE_URL/posts", weight = 3 },
+    { name = "/publications", url = "$BASE_URL/publications", weight = 4 },
+]
+stylesheets = ["custom.css"]
+
+[[extra.socials]]
+name = "github"
+url = "https://github.com/sairam2661"
+icon = "github"
+
+[[extra.socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/sairamvaidya"
+icon = "linkedin"
+
+[[extra.socials]]
+name = "email"
+url = "mailto:smahadevaganapathy@ucsd.edu"
+icon = "email"
