@@ -1,7 +1,48 @@
+@import url("https://cdn.jsdelivr.net/fontsource/fonts/commit-mono@latest/latin-400-normal.css");
+@import url("https://cdn.jsdelivr.net/fontsource/fonts/commit-mono@latest/latin-700-normal.css");
+
+:root {
+  --text-font: "Commit Mono", "JetBrains Mono", ui-monospace, monospace;
+}
+
 :root.light {
   --primary-color: #2563eb;
 }
 
 :root.dark {
   --primary-color: #3b82f6;
+}
+
+nav .right-nav > a {
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 2px;
+}
+
+nav .left-nav > a:first-child {
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 2px;
+}
+
+.page-header::after {
+  content: ".";
+  color: var(--primary-color);
+  margin-left: -0.55em;
+  font-size: 1.4em;
+}
+
+.cards {
+  column-count: unset;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }

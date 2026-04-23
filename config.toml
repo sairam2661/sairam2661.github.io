@@ -1,10 +1,12 @@
 base_url = "https://sairam2661.github.io"
 title = "Sairam"
-description = "Grad student at UC San Diego working on programming languages, formal methods, and the reliability of language models."
+description = "Graduate student at UC San Diego."
+
 theme = "apollo"
 compile_sass = true
 build_search_index = true
 generate_feeds = true
+minify_html = false
 
 taxonomies = [
     { name = "tags", feed = true },
@@ -12,13 +14,15 @@ taxonomies = [
 
 
 [extra]
-theme = "auto"
-favicon = "/logo.png"
+theme = "toggle"
+use_cdn = false
+mathjax = true
+mathjax_dollar_inline_enable = true
+
 menu = [
-    { name = "Home", url = "$BASE_URL", weight = 1 },
-    { name = "/projects", url = "$BASE_URL/projects", weight = 2 },
-    { name = "/posts", url = "$BASE_URL/posts", weight = 3 },
-    { name = "/publications", url = "$BASE_URL/publications", weight = 4 },
+    { name= "/about", url= "/about", weight= 1 },
+    { name= "/projects", url= "/projects", weight= 2 },
+    { name= "/publications", url= "/pubs", weight= 3 },
 ]
 stylesheets = ["custom.css"]
 
